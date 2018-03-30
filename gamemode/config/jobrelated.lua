@@ -302,3 +302,48 @@ DarkRP.createCategory{
     canSee = fp{fn.Id, true},
     sortOrder = 255,
 }
+
+TEAM_EXAMPLE = DarkRP.createJob("Wazowski Cult Leader", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/player/zombie_classic.mdl"},
+	description = [[Mike Wazowski CulT Leader]],
+	weapons = {"m9k_hk45", "weapon_pumpshotgun2", "unarrest_stick", "m9k_svt40", "m9k_fnp", "weapon_flechettegun", "m9k_vz58", "m9k_winchester73", "m9k_honeybadger", "m9k_ak47"},
+	command = "examplejobcommand",
+	max = 1,
+	salary = 2,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	candemote = false,
+	category = "STD Infested Wazowski Cult",
+})
+
+TEAM_EXAMPLE = DarkRP.createJob("Emo cancer Patient", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/player/soldier_stripped.mdl"},
+	description = [[just end it already]],
+	weapons = {"m9k_dragonsbreath", "m9k_ump45", "m9k_psg1", "door_ram", "m9k_dragunov", "weaponchecker", "m9k_m1918bar", "m9k_f2000", "m9k_famas", "stunstick", "m9k_vikhr", "m9k_usas", "weapon_glock2", "m9k_deagle", "m9k_m4a4", "arrest_stick", "m9k_qbz97", "pocket", "med_kit"},
+	command = "examplejobcommand",
+	max = 4,
+	salary = 100,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	candemote = false,
+	category = "Emo Fag",
+})
+
+TEAM_GOD = DarkRP.createJob("God Himself", {
+	color = Color(30, 100, 160, 255),
+	model = {"models/player/skeleton.mdl"},
+	description = [[God himself]],
+	weapons = {"m9k_dragonsbreath", "m9k_ump45", "m9k_psg1", "door_ram", "m9k_dragunov", "weaponchecker", "m9k_m1918bar", "m9k_f2000", "m9k_famas", "stunstick", "m9k_vikhr", "m9k_usas", "weapon_glock2", "m9k_deagle", "m9k_m4a4", "arrest_stick", "m9k_qbz97", "pocket", "med_kit", "m9k_pkm", "unarrest_stick", "m9k_m3", "m9k_sl8", "m9k_hk45", "weapon_pumpshotgun2", "m9k_fal", "m9k_coltscoped", "weapon_ak47custom", "m9k_remington870", "m9k_g36", "m9k_intervention", "m9k_thompson", "m9k_sturmgewehr44", "m9k_m60", "m9k_mr96"},
+	command = "/god",
+	max = 1,
+	salary = 100,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	candemote = false,
+	category = "GOD",
+})
